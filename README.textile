@@ -1,6 +1,6 @@
 h1. Task::BeLike::RJRAY - My frequently-used and favorite modules
 
-Version: 0.001 (See CHANGES below)
+Version: 0.002 (See CHANGES below)
 
 h2. WHAT IS IT
 
@@ -8,6 +8,6 @@ This is my entry in the "simplify my new Perl bootstrap process" bandwagon. I do
 
 h2. CHANGES
 
-* Initial commit
+* lib/Task/BeLike/RJRAY.pm
 
-p{margin-bottom:2em}. This is the initial version.
+p{margin-bottom:2em}. Fixed typo in entry for App::Changelog2x.

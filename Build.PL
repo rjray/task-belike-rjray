@@ -33,7 +33,7 @@ my $builder = $class->new(
     license            => 'perl',
     dist_author        => 'Randy J. Ray <rjray@blackperl.com>',
     dist_abstract      => q(RJRAY's favorite modules),
-    dist_version       => '0.001',
+    dist_version       => '0.002',
     build_requires     =>
     {
         'Module::Build' => '0.28',

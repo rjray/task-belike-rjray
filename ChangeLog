@@ -1,3 +1,9 @@
+0.002	Thu May 30 13:25:24 PDT 2013
+
+	* lib/Task/BeLike/RJRAY.pm
+
+	Fixed typo in the spec for App::Changelog2x.
+
 0.001	Thu May 30 08:43:36 PDT 2013
 
 	* Initial release.
