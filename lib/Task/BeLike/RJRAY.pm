@@ -104,7 +104,7 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 
 =head3 L<Archive::Tar::Wrapper>
 
--head3 L<Archive::Zip>
+=head3 L<Archive::Zip>
 
 =head3 L<Data::Dump>
 
