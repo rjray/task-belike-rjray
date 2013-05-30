@@ -1,6 +1,6 @@
 h1. Task::BeLike::RJRAY - My frequently-used and favorite modules
 
-Version: 0.002 (See CHANGES below)
+Version: 0.003 (See CHANGES below)
 
 h2. WHAT IS IT
 
@@ -10,4 +10,4 @@ h2. CHANGES
 
 * lib/Task/BeLike/RJRAY.pm
 
-p{margin-bottom:2em}. Fixed typo in entry for App::Changelog2x.
+p{margin-bottom:2em}. Fixed typo in entry for Archive::Zip
