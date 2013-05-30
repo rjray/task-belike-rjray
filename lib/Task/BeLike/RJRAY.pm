@@ -22,7 +22,7 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 
 =head3 L<App::Ack>
 
-=head2 L<App::Changelog2x>
+=head3 L<App::Changelog2x>
 
 =head3 L<App::cpanminus>
 
