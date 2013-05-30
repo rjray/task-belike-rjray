@@ -1,6 +1,6 @@
 h1. Task::BeLike::RJRAY - My frequently-used and favorite modules
 
-Version: 0.01 (See CHANGES below)
+Version: 0.001 (See CHANGES below)
 
 h2. WHAT IS IT
 
