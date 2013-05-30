@@ -1,3 +1,13 @@
+0.004	Thu May 30 16:03:27 PDT 2013
+
+	* Build.PL
+
+	I clearly did not understand how this worked before now.
+
+	* lib/Task/BeLike/RJRAY.pm
+
+	Corrected version number.
+
 0.003	Thu May 30 13:33:40 PDT 2013
 
 	* lib/Task/BeLike/RJRAY.pm

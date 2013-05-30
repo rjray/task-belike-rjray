@@ -7,6 +7,7 @@
 use 5.008;
 use strict;
 use warnings;
+use autodie qw(open close);
 
 use Module::Build;
 
@@ -28,24 +29,31 @@ my $class = Module::Build->subclass(
         }
 |);
 
+# Get all the requirements from the task POD
+my %requires;
+open my $fh, '<', 'lib/Task/BeLike/RJRAY.pm';
+while (defined(my $line = <$fh>))
+{
+    next unless ($line =~ /^=head3/);
+    my (undef, $mod, $ver, undef) = split /\s+/, $line, 4;
+    $ver ||= 0;
+    $mod =~ s/L<(.*)>/$1/;
+
+    $requires{$mod} = $ver;
+}
+close $fh;
+
 my $builder = $class->new(
     module_name        => 'Task::BeLike::RJRAY',
     license            => 'perl',
     dist_author        => 'Randy J. Ray <rjray@blackperl.com>',
     dist_abstract      => q(RJRAY's favorite modules),
-    dist_version       => '0.003',
-    build_requires     =>
-    {
-        'Module::Build' => '0.28',
-        'Test::More'    => '0.80',
-    },
-    requires           =>
-    {
-        'perl'       => '5.008008',
-    },
+    dist_version_from  => 'lib/Task/BeLike/RJRAY.pm',
+    requires           => \%requires,
     add_to_cleanup     => [ qw(README
                                MANIFEST
                                MANIFEST.bak
+                               MANIFEST.SKIP.bak
                                META.yml
                                META.json
                                Makefile.PL) ],

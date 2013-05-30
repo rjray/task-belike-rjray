@@ -4,7 +4,7 @@ use warnings;
 
 package Task::BeLike::RJRAY;
 
-our $VERSION = '0.001';
+our $VERSION = '0.004';
 
 1;
 
@@ -173,8 +173,6 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 =head2 Net Stuff
 
 =head3 L<Net::Daemon>
-
-=head3 L<Net::Github>
 
 =head3 L<Net::HTTP>
 

@@ -1,6 +1,6 @@
 h1. Task::BeLike::RJRAY - My frequently-used and favorite modules
 
-Version: 0.003 (See CHANGES below)
+Version: 0.004 (See CHANGES below)
 
 h2. WHAT IS IT
 
@@ -8,6 +8,10 @@ This is my entry in the "simplify my new Perl bootstrap process" bandwagon. I do
 
 h2. CHANGES
 
+* Build.PL
+
+p{margin-bottom:2em}. I clearly did not understand how this worked before now.
+
 * lib/Task/BeLike/RJRAY.pm
 
-p{margin-bottom:2em}. Fixed typo in entry for Archive::Zip
+p{margin-bottom:2em}. Corrected version number.
