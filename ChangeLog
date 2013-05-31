@@ -1,3 +1,10 @@
+0.005	Fri May 31 15:07:45 PDT 2013
+
+	* lib/Task/BeLike/RJRAY.pm
+
+	Added two more modules to existing sections and created a new section
+	for work-related modules that I need.
+
 0.004	Thu May 30 16:03:27 PDT 2013
 
 	* Build.PL
