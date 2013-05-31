@@ -4,7 +4,7 @@ use warnings;
 
 package Task::BeLike::RJRAY;
 
-our $VERSION = '0.004';
+our $VERSION = '0.005';
 
 1;
 
@@ -130,6 +130,8 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 
 =head3 L<Git::PurePerl>
 
+=head3 L<PadWalker>
+
 =head3 L<Perl::Critic>
 
 =head3 L<Perl::Critic::Bangs>
@@ -194,6 +196,8 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 
 =head3 L<Mozilla::CA>
 
+=head3 L<Net::SSLeay>
+
 =head3 L<Net::Twitter>
 
 =head3 L<Net::Twitter::Lite>
@@ -255,6 +259,12 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 =head3 L<Net::GitHub>
 
 =head3 L<Vi::QuickFix>
+
+=head2 Work-Related
+
+=head3 L<EV>
+
+=head3 L<Params::Validate>
 
 =head2 Miscellaneous
 
