@@ -1,6 +1,6 @@
 h1. Task::BeLike::RJRAY - My frequently-used and favorite modules
 
-Version: 0.005 (See CHANGES below)
+Version: 0.006 (See CHANGES below)
 
 h2. WHAT IS IT
 
@@ -10,4 +10,4 @@ h2. CHANGES
 
 * lib/Task/BeLike/RJRAY.pm
 
-p{margin-bottom:2em}. Added two more modules to existing sections and created a new section for work-related modules that I need.
+p{margin-bottom:2em}. More additions, some re-ordering.
