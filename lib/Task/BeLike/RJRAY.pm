@@ -4,7 +4,7 @@ use warnings;
 
 package Task::BeLike::RJRAY;
 
-our $VERSION = '0.005';
+our $VERSION = '0.006';
 
 1;
 
@@ -29,6 +29,8 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 =head3 L<App::gh>
 
 =head3 L<App::Uni>
+
+=head3 L<Bundle::CPAN>
 
 =head3 L<CPAN::Uploader>
 
@@ -65,6 +67,8 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 =head3 L<Unicode::UTF8>
 
 =head2 Database Modules
+
+=head3 L<CPAN::SQLite>
 
 =head3 L<DBI>
 
@@ -139,6 +143,10 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 =head3 L<Perl::Tidy>
 
 =head3 L<Perl::Version>
+
+=head3 L<Pod::Coverage>
+
+=head3 L<Pod::Checker>
 
 =head3 L<XXX>
 
@@ -234,6 +242,8 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 
 =head3 L<Test::AgainstSchema>
 
+=head3 L<Test::CPAN::Meta>
+
 =head3 L<Test::Deep>
 
 =head3 L<Test::Differences>
@@ -242,13 +252,15 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 
 =head3 L<Test::More>
 
+=head3 L<Test::MinimumVersion>
+
+=head3 L<Test::Output>
+
 =head3 L<Test::Perl::Critic>
 
-=head3 L<Test::CPAN::Meta>
+=head3 L<Test::Pod>
 
 =head3 L<Test::Pod::Coverage>
-
-=head3 L<Test::Pod>
 
 =head2 Tools
 
@@ -268,9 +280,29 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 
 =head2 Miscellaneous
 
+=head3 L<Config::Any>
+
+=head3 L<Config::General>
+
+=head3 L<Config::GitLike>
+
+=head3 L<Config::Tiny>
+
+=head3 L<DateTime::Format::ISO8601>
+
+=head3 L<DateTime::Format::Strptime>
+
 =head3 L<Image::Size>
 
 =head3 L<Math::Random::MT>
+
+=head3 L<Pod::S5>
+
+=head3 L<Readonly>
+
+=head3 L<Readonly::XS>
+
+=head3 L<Task::Weaken>
 
 =head3 L<Text::Textile>
 
@@ -278,9 +310,7 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 
 =head3 L<Try::Tiny>
 
-=head3 L<Readonly>
-
-=head3 L<Readonly::XS>
+=head3 L<namespace::autoclean>
 
 =head1 LICENSE AND COPYRIGHT
 
