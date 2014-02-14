@@ -1,6 +1,6 @@
 h1. Task::BeLike::RJRAY - My frequently-used and favorite modules
 
-Version: 0.006 (See CHANGES below)
+Version: 0.007 (See CHANGES below)
 
 h2. WHAT IS IT
 
@@ -10,4 +10,4 @@ h2. CHANGES
 
 * lib/Task/BeLike/RJRAY.pm
 
-p{margin-bottom:2em}. More additions, some re-ordering.
+p{margin-bottom:2em}. Removed Image::ExifTool.

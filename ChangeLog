@@ -1,3 +1,9 @@
+0.007	Fri Feb 14 10:08:56 PST 2014
+
+	* lib/Task/BeLike/RJRAY.pm
+
+	Removed Image::ExifTool.
+
 0.006	Sat Jun  1 12:06:43 PDT 2013
 
 	* lib/Task/BeLike/RJRAY.pm
