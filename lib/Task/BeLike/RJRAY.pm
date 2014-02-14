@@ -4,7 +4,7 @@ use warnings;
 
 package Task::BeLike::RJRAY;
 
-our $VERSION = '0.006';
+our $VERSION = '0.007';
 
 1;
 
@@ -265,8 +265,6 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 =head2 Tools
 
 =head3 L<Git::Wrapper>
-
-=head3 L<Image::ExifTool>
 
 =head3 L<Net::GitHub>
 
