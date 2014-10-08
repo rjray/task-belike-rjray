@@ -1,6 +1,6 @@
 h1. Task::BeLike::RJRAY - My frequently-used and favorite modules
 
-Version: 0.007 (See CHANGES below)
+Version: 0.008 (See CHANGES below)
 
 h2. WHAT IS IT
 
@@ -10,4 +10,4 @@ h2. CHANGES
 
 * lib/Task/BeLike/RJRAY.pm
 
-p{margin-bottom:2em}. Removed Image::ExifTool.
+p{margin-bottom:2em}. Added Throwable, removed duplicate entry for namespace::autoclean, and fixed typo in entry for Crypt::OpenPGP.

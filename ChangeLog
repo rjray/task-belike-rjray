@@ -1,3 +1,10 @@
+0.008	Wed Oct  8 07:42:04 PDT 2014
+
+	* lib/Task/BeLike/RJRAY.pm
+
+	Added Throwable, removed duplicate entry for namespace::autoclean, and
+	fixed typo in entry for Crypt::OpenPGP.
+
 0.007	Fri Feb 14 10:08:56 PST 2014
 
 	* lib/Task/BeLike/RJRAY.pm
