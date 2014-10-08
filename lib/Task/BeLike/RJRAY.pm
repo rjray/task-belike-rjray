@@ -4,7 +4,7 @@ use warnings;
 
 package Task::BeLike::RJRAY;
 
-our $VERSION = '0.007';
+our $VERSION = '0.008';
 
 1;
 
@@ -170,6 +170,8 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 
 =head3 L<MooseX::Types::Perl>
 
+=head3 L<Throwable>
+
 =head2 Email Tools
 
 =head3 L<Email::MIME>
@@ -286,6 +288,8 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 
 =head3 L<Config::Tiny>
 
+=head3 L<Crypt::OpenPGP>
+
 =head3 L<DateTime::Format::ISO8601>
 
 =head3 L<DateTime::Format::Strptime>
@@ -308,11 +312,9 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 
 =head3 L<Try::Tiny>
 
-=head3 L<namespace::autoclean>
-
 =head1 LICENSE AND COPYRIGHT
 
-This file and the code within are copyright (c) 2013 by Randy J. Ray.
+This file and the code within are copyright (c) 2013-2014 by Randy J. Ray.
 
 Copying and distribution are permitted under the terms of the Artistic
 License 2.0 (L<http://www.opensource.org/licenses/artistic-license-2.0.php>) or
