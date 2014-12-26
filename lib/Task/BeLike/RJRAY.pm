@@ -30,7 +30,7 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 
 =head3 L<App::Uni>
 
-=head3 L<Bundle::CPAN>
+#=head3 L<Bundle::CPAN>
 
 =head3 L<CPAN::Uploader>
 
