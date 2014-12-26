@@ -4,7 +4,7 @@ use warnings;
 
 package Task::BeLike::RJRAY;
 
-our $VERSION = '0.008';
+our $VERSION = '0.009';
 
 1;
 
@@ -35,6 +35,8 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 =head3 L<CPAN::Uploader>
 
 =head3 L<Code::TidyAll>
+
+=head3 L<Module::CPANTS::Analyse>
 
 =head2 CLI Tools
 
@@ -133,6 +135,16 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 =head3 L<Devel::Symdump>
 
 =head3 L<Git::PurePerl>
+
+=head3 L<PPI>
+
+=head3 L<PPI::HTML>
+
+=head3 L<PPI::Prettify>
+
+=head3 L<PPI::XS>
+
+=head3 L<PPIx::Regexp>
 
 =head3 L<PadWalker>
 
@@ -295,6 +307,8 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 =head3 L<DateTime::Format::Strptime>
 
 =head3 L<Image::Size>
+
+=head3 L<MCE>
 
 =head3 L<Math::Random::MT>
 
