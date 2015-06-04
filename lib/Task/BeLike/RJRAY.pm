@@ -150,8 +150,6 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 
 =head3 L<Perl::Critic>
 
-=head3 L<Perl::Critic::Bangs>
-
 =head3 L<Perl::Tidy>
 
 =head3 L<Perl::Version>
@@ -206,7 +204,7 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 
 =head2 Web Stuff
 
-=head3 L<Bundle::LWP>
+=head3 L<LWP>
 
 =head3 L<LWP::Protocol::https>
 
@@ -247,8 +245,6 @@ Task::BeLike::RJRAY - RJRAY's frequently-used and favorite modules
 =head2 Templating
 
 =head3 L<Template>
-
-=head3 L<Template::Mustache>
 
 =head3 L<Text::Template>
 
